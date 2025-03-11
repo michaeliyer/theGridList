@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     let sections = JSON.parse(localStorage.getItem("sections")) || {
-        "Section 1": [],
-        "Section 2": [],
-        "Section 3": []
+        // "Section 1": [],
+        // "Section 2": [],
+        // "Section 3": []
     };
 
     const container = document.getElementById("sectionsContainer");
