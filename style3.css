@@ -257,4 +257,16 @@ button {
     button {
         width: 90%;
     }
+    
+    .delete-btn {
+        width: 24px;  /* Set a fixed width */
+        height: 24px; /* Set a fixed height */
+        font-size: 1rem; /* Adjust font size */
+        padding: 4px; /* Reduce padding */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%; /* Makes it a neat circular button */
+    }
+    
 }
