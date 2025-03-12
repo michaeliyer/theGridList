@@ -135,6 +135,22 @@ li {
     border-bottom: 1px solid #ddd;
 }
 
+
+
+
+
+
+input[type="checkbox"] {
+    width: 2rem;  /* Adjust size */
+    height: 2rem; /* Adjust size */
+    cursor: pointer;
+}
+
+
+
+
+
+
 /* INPUT FIELDS */
 input[type="text"] {
     width: calc(100% - 10px);
