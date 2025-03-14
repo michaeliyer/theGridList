@@ -4,8 +4,8 @@ body {
     margin: 0;
     padding: 20px;
     /* background-color: #0b55a4; */
-    background-color: hsl(220, 1%, 48%);
-    color: rgb(230, 234, 254);
+    background-color: hsl(210, 100%, 100%);
+    color: rgb(19, 18, 18);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +26,7 @@ body {
     width: 60%;
     max-width: 50rem;
     text-align: center;
-    background: #0b55a4;
+    background: #a6abb0;
     padding: 1rem;
     margin-bottom: 20px;
     border: #7a93ae solid 0.33rem;
@@ -72,7 +72,7 @@ h1 {
     font-family: "Lilita One", sans-serif;
     font-size: 1rem;
     padding: 8px 12px;
-    background: #007bff;
+    background: #b4b6b9;
     color: white;
     border: none;
     border-radius: 4px;
@@ -99,7 +99,7 @@ h1 {
 /* INDIVIDUAL SECTION */
 .section {
     padding: 15px;
-    background: rgb(89, 89, 91);
+    background: rgb(224, 224, 230);
     /* background: rgb(7, 21, 184); */
     border: #7a93ae solid 0.33rem;
     border-radius: 8px;
@@ -164,6 +164,12 @@ input[type="text"] {
 
 /* GENERAL BUTTON STYLING */
 button {
+    font-family: "Belanosima", sans-serif;
+    /* font-weight: 400;
+    font-weight: 600; */
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.25rem;
     margin-top: 10px;
     padding: 8px;
     cursor: pointer;
@@ -174,20 +180,24 @@ button {
 
 /* DELETE SECTION BUTTON */
 .delete-section-btn {
-    background: #ff4d4d;
+    font-family: "Oregano", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* font-style: italic; */
+    background: #292828;
     color: white;
     padding: 6px;
-    font-size: 12px;
+    font-size: 1.25rem;
     border: #7a93ae solid 0.2rem; /* Ensure button retains border */
 }
 
 .delete-section-btn:hover {
-    background: #cc0000;
+    background: #1b1a1a;
 }
 
 /* DELETE TASK BUTTON */
 .delete-btn {
-    background: red;
+    background: rgb(23, 22, 22);
     color: white;
     padding: 3px 6px;
     font-size: 12px;
