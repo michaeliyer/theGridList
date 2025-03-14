@@ -3,7 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #0b55a4;
+    /* background-color: #0b55a4; */
+    background-color: hsl(220, 1%, 48%);
     color: rgb(230, 234, 254);
     display: flex;
     flex-direction: column;
@@ -98,7 +99,8 @@ h1 {
 /* INDIVIDUAL SECTION */
 .section {
     padding: 15px;
-    background: rgb(7, 21, 184);
+    background: rgb(89, 89, 91);
+    /* background: rgb(7, 21, 184); */
     border: #7a93ae solid 0.33rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
